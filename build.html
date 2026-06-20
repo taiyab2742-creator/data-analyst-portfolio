@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0b1020">
+    <title>Build | MD. Taiyab Ur Rahman — Junior Data Analyst</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <header class="site-header">
+        <a class="brand" href="index.html">MD. Taiyab Ur Rahman<span>.</span></a>
+        <nav class="site-nav" aria-label="Primary">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="resume.html">Resume</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <a class="header-cta" href="build.html">Let’s build</a>
+    </header>
+
+    <main>
+        <section class="section page-hero reveal">
+            <p class="eyebrow">Build</p>
+            <h1>Share your analytics project idea or let me build it for you.</h1>
+            <p class="lead">Choose to have your project professionally developed or get a self-service path with recommended paid tools to build it yourself.</p>
+        </section>
+
+        <section class="section reveal">
+            <div class="section-heading section-heading-row">
+                <div>
+                    <p class="eyebrow">Your options</p>
+                    <h2>Order a custom build or take control with paid tools.</h2>
+                </div>
+            </div>
+            <div class="about-grid">
+                <div>
+                    <h3>Order it built</h3>
+                    <p>Tell me your business outcome, dataset, and reporting requirements. I’ll scope the analytics solution, build the dashboard, and deliver insights.</p>
+                </div>
+                <div>
+                    <h3>Build it yourself</h3>
+                    <p>Get a guided toolkit for self-service analytics with recommended paid tools and implementation steps for faster setup.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section reveal contact-section">
+            <div>
+                <p class="eyebrow">Project brief</p>
+                <h2>Describe your idea or analytics goal.</h2>
+                <p>Use this form to share your dataset type, what you want to measure, and whether you want a full build or self-service support.</p>
+                <div class="service-list contact-links">
+                    <article>
+                        <h3>Need a build?</h3>
+                        <p>I can create dashboards, ETL workflows, and reports to match your KPIs.</p>
+                    </article>
+                    <article>
+                        <h3>DIY toolkit</h3>
+                        <p>Receive a tailored set of tools, licenses, and steps to build the analytics solution yourself.</p>
+                    </article>
+                    <article>
+                        <h3>Delivery</h3>
+                        <p>Project scope and timeline will be shared after the initial brief.</p>
+                    </article>
+                </div>
+                <div class="social-links">
+                    <a href="https://wa.me/8801619130503" target="_blank" rel="noopener noreferrer" title="WhatsApp" class="social-icon whatsapp">
+                        <span>WhatsApp</span>
+                    </a>
+                    <a href="https://www.facebook.com/taiyab2026" target="_blank" rel="noopener noreferrer" title="Facebook" class="social-icon facebook">
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://www.instagram.com/taiyab_2026/" target="_blank" rel="noopener noreferrer" title="Instagram" class="social-icon instagram">
+                        <span>Instagram</span>
+                    </a>
+                </div>
+            </div>
+            <form class="contact-form" name="build-form" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+                <input type="hidden" name="form-name" value="build-form">
+                <p class="hidden"><label>Don’t fill this if you’re human: <input name="bot-field"></label></p>
+                <label>
+                    <span>Name</span>
+                    <input type="text" name="name" placeholder="Your name" required>
+                </label>
+                <label>
+                    <span>Email</span>
+                    <input type="email" name="email" placeholder="you@example.com" required>
+                </label>
+                <label>
+                    <span>Project type</span>
+                    <input type="text" name="projectType" placeholder="Custom build or self-service toolkit" required>
+                </label>
+                <label>
+                    <span>Project idea</span>
+                    <textarea name="message" rows="5" placeholder="Describe your data project idea or tools you need" required></textarea>
+                </label>
+                <button class="button button-primary" type="button" id="copyEmail">Copy email</button>
+                <button class="button button-primary" type="submit">Send request</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Start your analytics project with a brief, a custom build option, or tool recommendations for a self-paced build.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

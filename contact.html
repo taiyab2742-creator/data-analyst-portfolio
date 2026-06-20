@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0b1020">
+    <title>Contact | MD. Taiyab Ur Rahman — Junior Data Analyst</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <header class="site-header">
+        <a class="brand" href="index.html">MD. Taiyab Ur Rahman<span>.</span></a>
+        <nav class="site-nav" aria-label="Primary">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="resume.html">Resume</a>
+            <a href="contact.html" aria-current="page">Contact</a>
+        </nav>
+        <a class="header-cta" href="build.html">Let’s build</a>
+    </header>
+
+    <main>
+        <section class="section page-hero reveal">
+            <p class="eyebrow">Contact</p>
+            <h1>Let’s discuss your next data project.</h1>
+            <p class="lead">Share your dataset, business questions, or dashboard needs and I’ll help turn them into insight.</p>
+        </section>
+
+        <section class="section reveal contact-section">
+            <div>
+                <p class="eyebrow">Reach out</p>
+                <h2>Data questions welcome.</h2>
+                <p>Use the form to describe your analytics needs, or copy the email address for a direct message.</p>
+                <div class="service-list contact-links">
+                    <article>
+                        <h3>Email</h3>
+                            <p><a href="mailto:taiyaburrahman2742@gmail.com">taiyaburrahman2742@gmail.com</a></p>
+                    </article>
+                    <article>
+                        <h3>Location</h3>
+                        <p>Available remotely for data analysis work.</p>
+                    </article>
+                    <article>
+                        <h3>Response</h3>
+                        <p>Usually within a day.</p>
+                    </article>
+                </div>
+                <div class="social-links">
+                    <a href="https://wa.me/8801619130503" target="_blank" rel="noopener noreferrer" title="WhatsApp" class="social-icon whatsapp">
+                        <span>WhatsApp</span>
+                    </a>
+                    <a href="https://www.facebook.com/taiyab2026" target="_blank" rel="noopener noreferrer" title="Facebook" class="social-icon facebook">
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://www.instagram.com/taiyab_2026/" target="_blank" rel="noopener noreferrer" title="Instagram" class="social-icon instagram">
+                        <span>Instagram</span>
+                    </a>
+                </div>
+            </div>
+            <form class="contact-form" name="contact-form" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+                <input type="hidden" name="form-name" value="contact-form">
+                <p class="hidden"><label>Don’t fill this if you’re human: <input name="bot-field"></label></p>
+                <label>
+                    <span>Name</span>
+                    <input type="text" name="name" placeholder="Your name" required>
+                </label>
+                <label>
+                    <span>Email</span>
+                    <input type="email" name="email" placeholder="you@example.com" required>
+                </label>
+                <label>
+                    <span>Message</span>
+                    <textarea name="message" rows="5" placeholder="Tell me about your project" required></textarea>
+                </label>
+                <button class="button button-primary" type="button" id="copyEmail">Copy email</button>
+                <button class="button button-primary" type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Ready to collaborate on analytics, dashboards, or data workflow projects.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
