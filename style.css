@@ -560,12 +560,25 @@ main {
     background: rgba(255, 255, 255, 0.04);
     color: var(--muted);
     transition: all 0.3s ease;
-    font-size: 0.9rem;
-    font-weight: 600;
+    position: relative;
+}
+
+.social-icon svg {
+    width: 1.4rem;
+    height: 1.4rem;
+    fill: currentColor;
 }
 
 .social-icon span {
-    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
 
 .social-icon:hover {
@@ -573,21 +586,6 @@ main {
     border-color: var(--accent);
     background: rgba(124, 247, 212, 0.12);
     color: var(--accent);
-}
-
-.social-icon.whatsapp::before {
-    content: '💬';
-    font-size: 1.5rem;
-}
-
-.social-icon.facebook::before {
-    content: '𝗙';
-    font-size: 1.8rem;
-}
-
-.social-icon.instagram::before {
-    content: '📷';
-    font-size: 1.5rem;
 }
 
 .site-footer {
